@@ -15,7 +15,7 @@ int b2 = chislo % 10;
 
 if (chislo < 10000 || chislo > 99999)
 {
-    System.Console.WriteLine("Число не пятизначное, повнимательнее!!!");
+    System.Console.WriteLine("Число не пятизначное, внимательнее!!!");
 }
     else if (a1 == b2 && a2 == b1)
     {
