@@ -19,10 +19,10 @@ if (chislo < 10000 || chislo > 99999)
 }
     else if (a1 == b2 && a2 == b1)
     {
-        System.Console.WriteLine("Да, число полиндром");
+        System.Console.WriteLine("Да, число палиндром");
     }
 else
 {   
-    System.Console.WriteLine("Нет, число не полиндром");
+    System.Console.WriteLine("Нет, число не палиндром");
 }
 
