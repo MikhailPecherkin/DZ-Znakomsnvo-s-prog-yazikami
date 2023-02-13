@@ -8,6 +8,12 @@ int a = Convert.ToInt32(System.Console.ReadLine());
 System.Console.Write("Введите степень числа: ");
 int b = Convert.ToInt32(System.Console.ReadLine());
 
-double c = Math.Pow(a, b);
-System.Console.WriteLine($"Число {a} в стпени {b} равно: {c}");
-    
+// double c = Math.Pow(a, b);
+// System.Console.WriteLine($"Число {a} в стпени {b} равно: {c}");
+
+int rez = 1;
+for (int i = 1; i <= b ; i++)
+{
+    rez = rez*a;
+}
+System.Console.WriteLine($"Число {a} в стпени {b} равно: {rez}");
