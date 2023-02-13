@@ -14,8 +14,8 @@ System.Console.Write("Введите количество чисел в масс
 int size = Convert.ToInt32(System.Console.ReadLine());
 System.Console.Write("Введите минимальную границу массива: ");
 int min = Convert.ToInt32(System.Console.ReadLine());
-System.Console.Write("Введите минимальную границу массива: ");
-int max = Convert.ToInt32(System.Console.ReadLine());
+System.Console.Write("Введите максимальную границу массива: ");
+int max = Convert.ToInt32(System.Console.ReadLine())+1;
 
 int[] FillArray()
 {
