@@ -10,7 +10,7 @@ int[] GenerateArray(int size, int leftRange, int rightRange)
     var rand = new Random();
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = rand.Next(leftRange, rightRange + 1);
+        array[i] = rand.Next(leftRange, rightRange);
     }
     return array;
 }
