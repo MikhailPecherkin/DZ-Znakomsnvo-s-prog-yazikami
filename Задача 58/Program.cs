@@ -32,7 +32,7 @@ int[,] GenerateMatrix1(int rows, int cols)
 void PrintMatrix1(int[,] matrix1)
 {
     System.Console.WriteLine("----------------------------------------");
-    System.Console.WriteLine($"Вторая матрица размером {rows} на {cols} случайных чисел");
+    System.Console.WriteLine($"Первая матрица размером {rows} на {cols} случайных чисел");
     for (int i = 0; i < matrix1.GetLength(0); i++)
     {
         for (int j = 0; j < matrix1.GetLength(1); j++)
