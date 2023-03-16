@@ -51,15 +51,4 @@ int Akker(int m, int n)
     }
 }
 
-
-// int Akker(int m, int n)
-// {
-//     if (!m && n)
-//      return (n + 1);
-//      else
-//      if (m and!n)
-//      return Akk(m - 1, 1);
-// return Akk(m - 1, Akk(m, n - 1));
-// }
-
 System.Console.WriteLine($"Функция Аккермана = {Akker(m, n)}");
